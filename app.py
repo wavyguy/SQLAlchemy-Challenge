@@ -99,7 +99,6 @@ def given_start(start,end=None):
         "Max":start_func[2],
     }
 
-  
     Session.close()
     return jsonify(start_dict)
 
